@@ -43,7 +43,7 @@ const Repository = () => {
     setIsLoading(true);
     try {
       const repos = await axios.get(
-        `https://api.github.com/users/johnpapa/repos?page=${currentPage}&per_page=${numberOfRepos}`,
+        `https://api.github.com/users/${name}/repos?page=${currentPage}&per_page=${numberOfRepos}`,
         {
           headers: {
             Authorization: `Token ${process.env.REACT_APP_API_KEY}`,
