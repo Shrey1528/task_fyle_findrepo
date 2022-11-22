@@ -1,7 +1,7 @@
 # Git Repo Finder
 
 ## Technology used: ReactJS
-## Live Link: https://earnest-kringle-138256.netlify.app/
+## Live Link: https://jolly-croissant-74464a.netlify.app
 
 
 ### Instructions :
